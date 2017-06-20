@@ -31,7 +31,7 @@ ini_set("display_errors", 1);
 
 define('URL_PROTOCOL', 'http://');
 define('URL_DOMAIN', $_SERVER['HTTP_HOST']);
-define('URL_SUB_FOLDER', 'tiny-master');
+//define('URL_SUB_FOLDER', 'tiny-master');
 define('URL_INDEX_FILE', 'index.php' . '/');
 
 // the final URLs, constructed with the elements above
@@ -48,7 +48,7 @@ if (defined('URL_SUB_FOLDER')) {
  * This is the place where you define your database credentials, database type etc.
  */
 define('DB_TYPE', 'mysql');
-define('DB_HOST', '127.0.0.1');
+define('DB_HOST', 'awsomephp-mysqldbserver.mysql.database.azure.com');
 define('DB_NAME', 'tiny');
-define('DB_USER', 'root');
-define('DB_PASS', '');
+define('DB_USER', 'thulasee@awsomephp-mysqldbserver');
+define('DB_PASS', 'password123#');
