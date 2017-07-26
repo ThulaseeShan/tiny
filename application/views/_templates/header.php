@@ -40,7 +40,7 @@ if (!$this) {
             <img src="<?php echo URL; ?>public/img/sample-img.jpg" alt="Big image" width="500" height="400">
         </div>
         <div>
-            <video width="320" height="240" controls>
+            <video width="320" height="240" controls autoplay>
                 <source src="<?php echo URL; ?>public/img/html5.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
