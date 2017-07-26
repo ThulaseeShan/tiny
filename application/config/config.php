@@ -48,7 +48,7 @@ if (defined('URL_SUB_FOLDER')) {
  * This is the place where you define your database credentials, database type etc.
  */
 define('DB_TYPE', 'mysql');
-define('DB_HOST', 'awsomephp-mysqldbserver.mysql.database.azure.com');
+define('DB_HOST', 'tinymusic-mysqldbserver.mysql.database.azure.com');
 define('DB_NAME', 'tiny');
-define('DB_USER', 'thulasee@awsomephp-mysqldbserver');
-define('DB_PASS', 'password123#');
+define('DB_USER', 'thulasee@tinymusic-mysqldbserver');
+define('DB_PASS', 'Thul0011#');
