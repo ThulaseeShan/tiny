@@ -37,6 +37,13 @@ if (!$this) {
         <h3>Demo image, to show usage of public/img folder</h3>
         <div>
             <img src="<?php echo URL; ?>public/img/demo-image.png" alt="Demo image">
+            <img src="<?php echo URL; ?>public/img/sample-img.jpg" alt="Big image">
+        </div>
+        <div>
+            <video width="320" height="240" controls>
+                <source src="<?php echo URL; ?>public/img/html5-vid.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
         </div>
         <!-- navigation -->
         <h3>Demo Navigation</h3>
